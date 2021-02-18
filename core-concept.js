@@ -16,3 +16,16 @@ const person = {
 };
 const statement = `this person ${person.name}`;
 console.log(statement);
+
+// array
+const numbers = [34, 30, 50];
+const respected = ['Muhammad', 'Shahnewaz'];
+const products = [{name: 'laptop', price: 23}, {name: 'driver', price: 300}];
+
+const result2 = products.map(product => product.name);
+// console.log(result2);
+for (let i = 0; i < result2.length; i++) {
+    const element = result2[i];
+    console.log(element);
+    
+}
